@@ -1,0 +1,290 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,interface-bg_png,interface-blood-0_png,interface-blood-1_png,interface-blood-2_png,interface-blood-3_png,interface-blood-4_png,interface-blood-5_png,interface-blood-border_png,interface-flush--active_png,interface-flush--disabled_png,interface-flush_png,interface-number-1_png,interface-number-10_png,interface-number-11_png,interface-number-12_png,interface-number-13_png,interface-number-14_png,interface-number-15_png,interface-number-2_png,interface-number-3_png,interface-number-4_png,interface-number-5_png,interface-number-6_png,interface-number-7_png,interface-number-8_png,interface-number-9_png,interface-stop-icon--active_png,interface-stop-icon--disabled_png,interface-stop-icon_png,interface-vsq-gold_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "interface-bg_png",
+			"type": "image",
+			"url": "game/interface-bg.png"
+		},
+		{
+			"name": "interface-blood-0_png",
+			"type": "image",
+			"url": "game/interface-blood-0.png"
+		},
+		{
+			"name": "interface-blood-1_png",
+			"type": "image",
+			"url": "game/interface-blood-1.png"
+		},
+		{
+			"name": "interface-blood-2_png",
+			"type": "image",
+			"url": "game/interface-blood-2.png"
+		},
+		{
+			"name": "interface-blood-3_png",
+			"type": "image",
+			"url": "game/interface-blood-3.png"
+		},
+		{
+			"name": "interface-blood-4_png",
+			"type": "image",
+			"url": "game/interface-blood-4.png"
+		},
+		{
+			"name": "interface-blood-5_png",
+			"type": "image",
+			"url": "game/interface-blood-5.png"
+		},
+		{
+			"name": "interface-blood-border_png",
+			"type": "image",
+			"url": "game/interface-blood-border.png"
+		},
+		{
+			"name": "interface-flush--active_png",
+			"type": "image",
+			"url": "game/interface-flush--active.png"
+		},
+		{
+			"name": "interface-flush--disabled_png",
+			"type": "image",
+			"url": "game/interface-flush--disabled.png"
+		},
+		{
+			"name": "interface-flush_png",
+			"type": "image",
+			"url": "game/interface-flush.png"
+		},
+		{
+			"name": "interface-number-1_png",
+			"type": "image",
+			"url": "game/interface-number-1.png"
+		},
+		{
+			"name": "interface-number-10_png",
+			"type": "image",
+			"url": "game/interface-number-10.png"
+		},
+		{
+			"name": "interface-number-11_png",
+			"type": "image",
+			"url": "game/interface-number-11.png"
+		},
+		{
+			"name": "interface-number-12_png",
+			"type": "image",
+			"url": "game/interface-number-12.png"
+		},
+		{
+			"name": "interface-number-13_png",
+			"type": "image",
+			"url": "game/interface-number-13.png"
+		},
+		{
+			"name": "interface-number-14_png",
+			"type": "image",
+			"url": "game/interface-number-14.png"
+		},
+		{
+			"name": "interface-number-15_png",
+			"type": "image",
+			"url": "game/interface-number-15.png"
+		},
+		{
+			"name": "interface-number-2_png",
+			"type": "image",
+			"url": "game/interface-number-2.png"
+		},
+		{
+			"name": "interface-number-3_png",
+			"type": "image",
+			"url": "game/interface-number-3.png"
+		},
+		{
+			"name": "interface-number-4_png",
+			"type": "image",
+			"url": "game/interface-number-4.png"
+		},
+		{
+			"name": "interface-number-5_png",
+			"type": "image",
+			"url": "game/interface-number-5.png"
+		},
+		{
+			"name": "interface-number-6_png",
+			"type": "image",
+			"url": "game/interface-number-6.png"
+		},
+		{
+			"name": "interface-number-7_png",
+			"type": "image",
+			"url": "game/interface-number-7.png"
+		},
+		{
+			"name": "interface-number-8_png",
+			"type": "image",
+			"url": "game/interface-number-8.png"
+		},
+		{
+			"name": "interface-number-9_png",
+			"type": "image",
+			"url": "game/interface-number-9.png"
+		},
+		{
+			"name": "interface-stop-icon--active_png",
+			"type": "image",
+			"url": "game/interface-stop-icon--active.png"
+		},
+		{
+			"name": "interface-stop-icon--disabled_png",
+			"type": "image",
+			"url": "game/interface-stop-icon--disabled.png"
+		},
+		{
+			"name": "interface-stop-icon_png",
+			"type": "image",
+			"url": "game/interface-stop-icon.png"
+		},
+		{
+			"name": "interface-vsq-gold_png",
+			"type": "image",
+			"url": "game/interface-vsq-gold.png"
+		}
+	]
+}

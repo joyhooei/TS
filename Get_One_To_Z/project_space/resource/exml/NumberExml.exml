@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Exml.NumberExml" width="116" height="116" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="changeImageRes" width="116" height="116" x="0" y="0" source="interface-number-3_png" anchorOffsetX="58" anchorOffsetY="58"/>
+</e:Skin>

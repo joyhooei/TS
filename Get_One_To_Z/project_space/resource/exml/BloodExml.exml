@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Exml.BloodExml" width="516" height="32" xmlns:e="http://ns.egret.com/eui">
+    <e:Group id="interfaceBloodGroup" x="69" y="301" width="516" height="32">
+        <e:Image id="interfaceBlood0" source="interface-blood-0_png" x="4" y="4"/>
+        <e:Image id="interfaceBlood1" source="interface-blood-1_png" x="4" y="4"/>
+        <e:Image id="interfaceBlood2" source="interface-blood-2_png" x="106" y="4"/>
+        <e:Image id="interfaceBlood3" source="interface-blood-3_png" x="208" y="4"/>
+        <e:Image id="interfaceBlood4" source="interface-blood-4_png" x="310" y="4"/>
+        <e:Image id="interfaceBlood5" source="interface-blood-5_png" x="412" y="4"/>
+    </e:Group>
+	<e:Image id="interfaceBloodBorder" source="interface-blood-border_png" x="69" y="301"/>
+</e:Skin>
