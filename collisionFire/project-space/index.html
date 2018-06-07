@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Egret - Orchid</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: radial-gradient(rgb(43, 48, 77), rgb(24, 27, 42));
+            background-size: 100% 100%;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="fixedWidth"
+         data-frame-rate="60"
+         data-content-width="750"
+         data-content-height="1624"
+         data-show-paint-rect="false"
+         data-multi-fingered="1"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+<script>
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response)
+        var list = manifest.initial.concat(manifest.game)
+
+        var mappedList = list.map(function (v, i) {
+            if (v === 'libs/modules/egret/egret.js') {
+                return [v, 1000]
+            } else if (v === 'libs/modules/egret/egret.web.js') {
+                return [v, 999]
+            } else if (v === 'libs/modules/eui/eui.js') {
+                return [v, 998]
+            } else if (v === 'libs/modules/assetsmanager/assetsmanager.js') {
+                return [v, 997]
+            } else if (v === 'libs/modules/tween/tween.js') {
+                return [v, 996]
+            } else if (v === 'libs/modules/socket/socket.js') {
+                return [v, 995]
+            } else if (v === 'libs/modules/promise/promise.js') {
+                return [v, 994]
+            } else if (v.match(/^libs\/modules\//)) {
+                return [v, 900]
+            } else if (v === 'bin-debug/TYPES.js') {
+                return [v, 800]
+            } else if (v === 'bin-debug/Data.js') {
+                return [v, 799]
+            } else if (v === 'bin-debug/exec/Router.js') {
+                return [v, 798]
+            } else if (v === 'bin-debug/exec/RouterContext.js') {
+                return [v, 797]
+            } else if (v === 'bin-debug/bin/OrchidData.js') {
+                return [v, 796]
+            } else if (v === 'bin-debug/bin/OrchidAnime.js') {
+                return [v, 795]
+            } else if (v === 'bin-debug/bin/OrchidRouter.js') {
+                return [v, 794]
+            } else if (v === 'bin-debug/bin/OrchidCore.js') {
+                return [v, 793]
+            } else if (v === 'bin-debug/View.js') {
+                return [v, 792]
+            } else if (v === 'bin-debug/Main.js') {
+                return [v, 791]
+            } else {
+                return [v, 0]
+            }
+        })
+
+        mappedList.sort(function (a, b) {
+            return b[1] - a[1]
+        })
+
+        list = mappedList.map(function (v) {
+            return v[0]
+        })
+
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({ renderMode: "canvas", audioType: 0, calculateCanvasScaleFactor:function(context) {
+                var backingStore = context.backingStorePixelRatio ||
+                    context.webkitBackingStorePixelRatio ||
+                    context.mozBackingStorePixelRatio ||
+                    context.msBackingStorePixelRatio ||
+                    context.oBackingStorePixelRatio ||
+                    context.backingStorePixelRatio || 1;
+                return (window.devicePixelRatio || 1) / backingStore;
+            }});
+        });
+    });
+    xhr.send(null);
+</script>
+</body>
+
+</html>

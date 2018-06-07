@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Exml.Square" width="92" height="92" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="fill" width="90" height="90" x="45" y="45" anchorOffsetX="45" anchorOffsetY="45" source="game-square-1_png"/>
+</e:Skin>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="Exml.RankList" width="750" height="1624" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+  <e:Rect id="rankMask" x="0" y="0" width="750" height="1624" fillAlpha="0.8" fillColor="0x000000"/>
+  <e:Group id="rankRankGroup" x="37" y="172" width="676" height="965">
+    <e:Image id="rankBackground" source="rank-background_png" x="0" y="115"/>
+    <e:Button id="rankPrevious" x="75" y="895" width="210" height="70">
+      <e:skinName>
+        <e:Skin states="up,down,disabled">
+          <e:Image width="100%" height="100%" source="rank-previous_png" source.down="rank-previous--active_png" source.disabled="rank-previous--disabled_png"/>
+        </e:Skin>
+      </e:skinName>
+    </e:Button>
+    <e:Button id="rankNext" x="392" y="895" width="210" height="70">
+      <e:skinName>
+        <e:Skin states="up,down,disabled">
+          <e:Image width="100%" height="100%" source="rank-next_png" source.down="rank-next--active_png" source.disabled="rank-next--disabled_png"/>
+        </e:Skin>
+      </e:skinName>
+    </e:Button>
+    <e:Button id="rankBack" x="0" y="0" width="86" height="86">
+      <e:skinName>
+        <e:Skin states="up,down,disabled">
+          <e:Image width="100%" height="100%" source="rank-back_png" source.down="rank-back--active_png" source.disabled="rank-back--disabled_png"/>
+        </e:Skin>
+      </e:skinName>
+    </e:Button>
+    <e:Image id="rankTitleGroup" source="rank-title-group_png" x="220" y="132" visible="false"/>
+    <e:Image id="rankTitleFriend" source="rank-title-friend_png" x="220" y="134"/>
+
+
+
+  </e:Group>
+  <e:Group id="rankMyGroup" x="37" y="1174" width="676" height="94">
+    <e:Image id="rankMyBackground" source="rank-my-background_png" x="0" y="0"/>
+    <e:Button id="rankMyGroupButton" x="470" y="18" width="179" height="61">
+      <e:skinName>
+        <e:Skin states="up,down,disabled">
+          <e:Image width="100%" height="100%" source="rank-my-group_png" source.down="rank-my-group--active_png" source.disabled="rank-my-group--disabled_png"/>
+        </e:Skin>
+      </e:skinName>
+    </e:Button>
+		<e:Label id="rankMyTitle" text="我的分数" x="42" y="32" fontFamily="SimHei" textColor="0xd7e9ff"/>
+  </e:Group>
+</e:Skin>

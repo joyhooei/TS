@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="Exml.Clearing" width="750" height="1624" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+  <e:Rect id="clearingMask" x="0" y="0" width="750" height="1624" fillAlpha="0.80" fillColor="0x000000"/>
+  <e:Button id="clearingGameReturn" x="57" y="176" width="64" height="64">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="clearing-game-return_png" source.down="clearing-game-return--active_png" source.disabled="clearing-game-return--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Image id="clearingResult" source="clearing-result_png" x="287" y="346"/>
+  <e:Label id="clearingScore" textAlign="center" text="0分" x="166" y="444" width="426.501007080078" height="72.5010070800781" textColor="0xF1ECD8" size="72.5010070800781" fontFamily="SimHei"/>
+  <e:Image id="clearingBest" source="clearing-best_png" x="142" y="687"/>
+  <e:Label id="clearingFriendBest" textAlign="center" text="0分" x="320" y="685" width="216" height="42" textColor="0xF1ECD8" size="42" fontFamily="SimHei"/>
+  <e:Button id="clearingChallenge" x="532" y="676" width="105" height="60">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="clearing-challenge_png" source.down="clearing-challenge--active_png" source.disabled="clearing-challenge--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="clearingMoreGame" x="505" y="1175" width="130" height="130">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="clearing-more-game_png" source.down="clearing-more-game--active_png" source.disabled="clearing-more-game--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="clearingShareRecord" x="311" y="1175" width="130" height="130">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="clearing-share-record_png" source.down="clearing-share-record--active_png" source.disabled="clearing-share-record--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="clearingRankList" x="115" y="1175" width="130" height="130">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="clearing-rank-list_png" source.down="clearing-rank-list--active_png" source.disabled="clearing-rank-list--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="clearingPlayAgain" x="115" y="956" width="520" height="120">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="clearing-play-again_png" source.down="clearing-play-again--active_png" source.disabled="clearing-play-again--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Label id="clearingAddGold" textAlign="center" text="+0" x="232" y="580" width="183" height="60" textColor="0xF1ECD8" size="60" fontFamily="SimHei"/>
+  <e:Button id="clearingGoldcoin" x="404" y="574" width="74" height="72">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="clearing-goldcoin_png" source.down="clearing-goldcoin--active_png" source.disabled="clearing-goldcoin--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+</e:Skin>

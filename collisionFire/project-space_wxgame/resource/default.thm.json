@@ -1,0 +1,14 @@
+{
+    "skins": {},
+    "autoGenerateExmlsList": true,
+    "exmls": [
+        "resource/exml/BlockHomePage.exml",
+        "resource/exml/Clearing.exml",
+        "resource/exml/Game.exml",
+        "resource/exml/Home.exml",
+        "resource/exml/Square.exml",
+        "resource/exml/Stop.exml",
+        "resource/exml/Tutorial.exml"
+    ],
+    "path": "resource/default.thm.json"
+}

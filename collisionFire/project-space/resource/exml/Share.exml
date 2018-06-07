@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Exml.Share" width="750" height="1624" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group id="shareTipsGroup" width="750" height="1334" x="0" y="0">
+		<e:Rect id="shareTipsMask" width="750" height="2000" x="0" y="0" fillAlpha="0.5"/>
+
+
+
+	</e:Group>
+	<e:Group id="shareSuccessGroup" width="750" height="1334" x="0" y="0">
+		<e:Rect id="shareSuccessMask" width="750" height="2000" x="0" y="0" scaleX="1" scaleY="1" fillAlpha="0.5"/>
+
+		<e:Image id="shareCoin0" x="297" y="-246" source="share-coin-0_png"/>
+		<e:Image id="shareCoin1" x="408" y="-256" source="share-coin-1_png"/>
+		<e:Image id="shareCoin2" x="343.5" y="-255" source="share-coin-2_png"/>
+		<e:Image id="shareCoin3" x="394" y="-248" source="share-coin-3_png"/>
+		<e:Image id="shareCoin4" x="271.5" y="-241" source="share-coin-4_png"/>
+		<e:Image id="shareCoin5" x="225" y="-252" source="share-coin-5_png"/>
+		<e:Image id="shareCoin6" x="409" y="-242" source="share-coin-0_png"/>
+		<e:Image id="shareCoin7" x="333" y="-256" source="share-coin-1_png"/>
+		<e:Image id="shareCoin8" x="246" y="-248" source="share-coin-2_png"/>
+		<e:Image id="shareCoin9" x="224" y="-236" source="share-coin-3_png"/>
+		<e:Image id="shareCoin10" x="444" y="-247" source="share-coin-4_png"/>
+		<e:Image id="shareCoin11" x="436" y="-250" source="share-coin-5_png"/>
+		<e:Image id="shareCoinA" x="126" y="694" alpha="0" source="share-coin-7_png"/>
+		<e:Image id="shareCoinB" x="408" y="766" alpha="0" source="share-coin-8_png"/>
+		<e:Image id="shareCoinC" x="98" y="772" alpha="0" source="share-coin-9_png"/>
+		<e:Image id="shareCoinD" x="136" y="754" source="share-coin-6_png"/>
+		<e:Rect id="shareSuccessClickMask" width="750" height="2000" x="0" y="0" fillAlpha="0"/>
+
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="Exml.Tutorial" width="750" height="1624" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+  <e:Image id="tutorialTutorialBg" source="tutorial-tutorial-bg_png" x="0" y="0"/>
+  <e:Image id="tutorialTutorialPrompt" source="tutorial-tutorial-prompt_png" x="0" y="1230"/>
+  <e:Button id="tutorialHallReturnicon" x="27" y="175" width="246" height="64">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="tutorial-hall-returnicon_png" source.down="tutorial-hall-returnicon--active_png" source.disabled="tutorial-hall-returnicon--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+</e:Skin>

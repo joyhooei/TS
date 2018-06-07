@@ -1,0 +1,36 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/promise/promise.js"
+	],
+	"game": [
+		"bin-debug/Data.js",
+		"bin-debug/view/Tutorial.js",
+		"bin-debug/TYPES.js",
+		"bin-debug/View.js",
+		"bin-debug/bin/OrchidData.js",
+		"bin-debug/bin/OrchidRouter.js",
+		"bin-debug/exec/Router.js",
+		"bin-debug/exec/RouterContext.js",
+		"bin-debug/utils/Ajax.js",
+		"bin-debug/utils/Anime.js",
+		"bin-debug/utils/AssetAdapter.js",
+		"bin-debug/utils/AudioManager.js",
+		"bin-debug/Main.js",
+		"bin-debug/utils/I18n.js",
+		"bin-debug/utils/Log.js",
+		"bin-debug/utils/ThemeAdapter.js",
+		"bin-debug/view/Clearing.js",
+		"bin-debug/view/Game.js",
+		"bin-debug/view/HallLoading.js",
+		"bin-debug/view/Home.js",
+		"bin-debug/view/Square.js",
+		"bin-debug/view/Stop.js",
+		"bin-debug/utils/Bridge.js"
+	]
+}

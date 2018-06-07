@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="Exml.Game" width="750" height="1624" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+  <e:Image id="gameBg" source="game-bg_png" x="0" y="0"/>
+	<e:Rect id="background" width="750" height="110" x="0" y="426" fillColor="0x3c332d"/>
+  <e:Group id="gameTitleGroup" x="287" y="199" width="248" height="125">
+    <e:Label id="gameTitleScore" textAlign="center" text="0" x="-35" y="63" width="244" height="69" textColor="0xD26C37" size="69" fontFamily="SimHei" anchorOffsetX="0"/>
+    <e:Image id="gameTitleUnit" source="game-title-unit_png" x="210" y="71"/>
+    <e:Label id="gameTitleTop" textAlign="center" text="TOP:0" x="21" y="-3" width="137" height="24" textColor="0x3C332D" size="24" fontFamily="SimHei"/>
+  </e:Group>
+  <e:Button id="gameStopIcon" x="30" y="174" width="66" height="66">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="game-stop-icon_png" source.down="game-stop-icon--active_png" source.disabled="game-stop-icon--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+	<e:Group id="gameChessboard" width="736" height="920" x="7" y="555" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Scroller width="200" height="200" x="310" y="304">
+			<e:Group anchorOffsetX="0" width="145.45" anchorOffsetY="0" height="116.67"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Scroller id="parkDetailScroller" width="750" height="110" x="0" y="426">
+		<e:Group anchorOffsetX="0" width="750">
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="parkDetailView" width="750" height="110" x="0" y="426" anchorOffsetX="0">
+		<e:Image id="gameSquareRank" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="game-squareRank_png" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+</e:Skin>

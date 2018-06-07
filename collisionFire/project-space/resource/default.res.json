@@ -1,0 +1,69 @@
+{
+	"groups": [
+		{
+			"keys": "hall_mp3,button_mp3,error_mp3,synthetic_mp3,false_mp3,gameStare_mp3,image004_json,image003_json,image002_json,image001_json,2_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "hall/media/hall.mp3",
+			"type": "sound",
+			"name": "hall_mp3"
+		},
+		{
+			"url": "hall/media/button.mp3",
+			"type": "sound",
+			"name": "button_mp3"
+		},
+		{
+			"url": "hall/media/error.mp3",
+			"type": "sound",
+			"name": "error_mp3"
+		},
+		{
+			"url": "hall/media/synthetic.mp3",
+			"type": "sound",
+			"name": "synthetic_mp3"
+		},
+		{
+			"url": "hall/media/false.mp3",
+			"type": "sound",
+			"name": "false_mp3"
+		},
+		{
+			"url": "hall/media/gameStare.mp3",
+			"type": "sound",
+			"name": "gameStare_mp3"
+		},
+		{
+			"url": "image001.json",
+			"type": "sheet",
+			"name": "image001_json",
+			"subkeys": "add-add--active_png,add-add_png,add-coin-box_png,add-coin_png,add-tuijian--active_png,add-tuijian--disabled_png,add-tuijian_png,game-bg_png,game-squareRank_png,home-background_png,home-close--active_png,home-close--disabled_png,home-close_png,home-count-down--active_png,home-count-down--disabled_png,home-count-down_png,home-fire-1_png,home-fire-2_png,home-fire-3_png,home-fire-4_png,home-game-title--active_png,home-game-title--disabled_png,home-game-title_png,home-get-gold--active_png,home-get-gold_png,home-hall-goldicon_png,home-hall-help-icon--active_png,home-hall-help-icon_png,home-hall-moregame--active_png,home-hall-moregame_png,home-hall-play-icon--active_png,home-hall-play-icon--disabled_png,home-hall-play-icon_png,home-hall-prompt_png,home-hall-rank-icon--active_png,home-hall-rank-icon_png,home-hall-tutorial-icon--active_png,home-hall-tutorial-icon_png,home-invite--active_png,home-invite--disabled_png,home-invite_png,share-coin-0_png,share-coin-1_png,share-coin-2_png,share-coin-3_png,share-coin-4_png,share-coin-5_png,share-coin-6_png,share-coin-7_png,share-coin-8_png,share-coin-9_png,tutorial-hall-returnicon--active_png,tutorial-hall-returnicon_png,tutorial-tutorial-prompt_png"
+		},
+		{
+			"url": "image002.json",
+			"type": "sheet",
+			"name": "image002_json",
+			"subkeys": "home-hall-bg_png,tutorial-tutorial-bg_png"
+		},
+		{
+			"url": "image003.json",
+			"type": "sheet",
+			"name": "image003_json",
+			"subkeys": "add-background_png"
+		},
+		{
+			"url": "image004.json",
+			"type": "sheet",
+			"name": "image004_json",
+			"subkeys": "clearing-best_png,clearing-challenge--active_png,clearing-challenge--disabled_png,clearing-challenge_png,clearing-friend-best_png,clearing-game-return--active_png,clearing-game-return--disabled_png,clearing-game-return_png,clearing-goldcoin_png,clearing-more-game--active_png,clearing-more-game--disabled_png,clearing-more-game_png,clearing-play-again--active_png,clearing-play-again--disabled_png,clearing-play-again_png,clearing-rank-list--active_png,clearing-rank-list--disabled_png,clearing-rank-list_png,clearing-result_png,clearing-share-record--active_png,clearing-share-record--disabled_png,clearing-share-record_png,game-square-1--active_png,game-square-10--active_png,game-square-10_png,game-square-11--active_png,game-square-11_png,game-square-12--active_png,game-square-12_png,game-square-13--active_png,game-square-13_png,game-square-14--active_png,game-square-14_png,game-square-15--active_png,game-square-15_png,game-square-16--active_png,game-square-16_png,game-square-17--active_png,game-square-17_png,game-square-18--active_png,game-square-18_png,game-square-19--active_png,game-square-19_png,game-square-1_png,game-square-2--active_png,game-square-20--active_png,game-square-20_png,game-square-2_png,game-square-3--active_png,game-square-3_png,game-square-4--active_png,game-square-4_png,game-square-5--active_png,game-square-5_png,game-square-6--active_png,game-square-6_png,game-square-7--active_png,game-square-7_png,game-square-8--active_png,game-square-8_png,game-square-9--active_png,game-square-9_png,game-stop-icon--active_png,game-stop-icon_png,game-title-unit_png,rank-back--active_png,rank-back--disabled_png,rank-back_png,rank-background_png,rank-headimg_png,rank-my-background_png,rank-my-group--active_png,rank-my-group--disabled_png,rank-my-group_png,rank-next--active_png,rank-next--disabled_png,rank-next_png,rank-previous--active_png,rank-previous--disabled_png,rank-previous_png,rank-rank-1_png,rank-rank-2_png,rank-rank-3_png,rank-title-friend_png,rank-title-group_png,stop-back-home--active_png,stop-back-home_png,stop-stop-bg_png,stop-stop-share--active_png,stop-stop-share_png,stop-volume--active_png,stop-volume_png"
+		},
+		{
+			"name": "2_png",
+			"type": "image",
+			"url": "hall/2.png"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="Exml.Home" width="750" height="1624" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+  <e:Image id="homeHallBg" source="home-hall-bg_png" x="0" y="0"/>
+  <e:Image id="homeHallPrompt" source="home-hall-prompt_png" x="0" y="1229"/>
+  <e:Image id="homeGameTitle" source="home-game-title_png" x="126" y="406"/>
+  <e:Button id="homeHallMoregame" x="675" y="306" width="94" height="92" anchorOffsetX="47" anchorOffsetY="46">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="home-hall-moregame_png" source.down="home-hall-moregame--active_png" source.disabled="home-hall-moregame--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="homeHallHelpIcon" x="101" y="986" width="109" height="144">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="home-hall-help-icon_png" source.down="home-hall-help-icon--active_png" source.disabled="home-hall-help-icon--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="homeHallRankIcon" x="331" y="986" width="98" height="144" anchorOffsetX="0">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="home-hall-rank-icon_png" source.down="home-hall-rank-icon--active_png" source.disabled="home-hall-rank-icon--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="homeHallTutorialIcon" x="543" y="986" width="111" height="144">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="home-hall-tutorial-icon_png" source.down="home-hall-tutorial-icon--active_png" source.disabled="home-hall-tutorial-icon--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="homeHallPlayIcon" x="273" y="807" width="204" height="118">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="home-hall-play-icon_png" source.down="home-hall-play-icon--active_png" source.disabled="home-hall-play-icon--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Image id="homeHallGoldicon" source="home-hall-goldicon_png" x="30" y="175"/>
+  <e:Label id="homeBestScore" text="0" x="392" y="651" width="249" height="70" textColor="0xD26C37" size="70" fontFamily="SimHei"/>
+  <e:Label id="homeBestScoreicon" textAlign="center" text="最高分：" x="164" y="663" width="218" height="50" textColor="0x778D9A" size="50" fontFamily="SimHei"/>
+  <e:Label id="homeHallGold" textAlign="center" text="0" x="82" y="191" width="102" height="30" textColor="0x0B2C44" size="30" fontFamily="SimHei"/>
+  <e:Button id="homeGetGold" x="183" y="175" width="62" height="62">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="home-get-gold_png" source.down="home-get-gold--active_png" source.disabled="home-get-gold--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+</e:Skin>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="Exml.Stop" width="750" height="1624" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+  <e:Rect id="stopStopMask" x="0" y="0" width="750" height="1624" fillAlpha="0.50" fillColor="0x000000"/>
+  <e:Image id="stopStopBg" source="stop-stop-bg_png" x="75" y="593"/>
+  <e:Image id="musicImg" source="stop-volume_png"  x="320" y="688" width="112" height="112"/>
+  <!--<e:Button id="stopVolume" x="320" y="688" width="112" height="112">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        
+        
+      </e:Skin>
+    </e:skinName>
+  </e:Button>-->
+  <e:Button id="stopBackHome" x="150" y="688" width="112" height="112">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="stop-back-home_png" source.down="stop-back-home--active_png" source.disabled="stop-back-home--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+  <e:Button id="stopStopShare" x="489" y="688" width="112" height="112">
+    <e:skinName>
+      <e:Skin states="up,down,disabled">
+        <e:Image width="100%" height="100%" source="stop-stop-share_png" source.down="stop-stop-share--active_png" source.disabled="stop-stop-share--disabled_png"/>
+      </e:Skin>
+    </e:skinName>
+  </e:Button>
+</e:Skin>
